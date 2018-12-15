@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/math_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Репетиторы по математике" />
+
+    <Button
+        android:id="@+id/physics_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Репетиторы по физике" />
+
+    <Button
+        android:id="@+id/russian_lg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Репетиторы по русскому языку" />
+
+    <Button
+        android:id="@+id/english_lg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Репетиторы по английскому языку" />
+
+    <Button
+        android:id="@+id/belarussian_lg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Репетиторы по белорусскому языку" />
+
+    <Button
+        android:id="@+id/chemistry_lg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Репетиторы по химии" />
+
+    <Button
+        android:id="@+id/geography_lg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Репетиторы по географии" />
+
+    <Button
+        android:id="@+id/biology_lg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Репетиторы по биологии" />
+
+    <Button
+        android:id="@+id/history_lg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Репетиторы по истории" />
+
+</LinearLayout>

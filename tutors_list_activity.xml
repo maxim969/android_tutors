@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/subjects_lyaout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <TextView
+        android:id="@+id/subjects_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите предмет"
+        android:visibility="visible"/>
+        <Button
+            android:id="@+id/math_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="математика" />
+
+        <Button
+            android:id="@+id/physics_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="физика" />
+
+        <Button
+            android:id="@+id/russian_lg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="русский язык" />
+
+        <Button
+            android:id="@+id/english_lg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="английский язык" />
+
+        <Button
+            android:id="@+id/belarussian_lg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="белорусский язык" />
+
+        <Button
+            android:id="@+id/chemistry_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="химия" />
+
+        <Button
+            android:id="@+id/geography_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="география" />
+
+        <Button
+            android:id="@+id/biology_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="биология" />
+
+        <Button
+            android:id="@+id/history_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="история" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/math_tutors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/mathTutorsList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетиторы по математике"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/math_tutor_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетитор по метематике 1" />
+        <Button
+            android:id="@+id/math_tutor_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетитор по метематике 2" />
+        <Button
+            android:id="@+id/math_tutor_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетитор по метематике 3"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/physics_tutors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/physicsTutorsList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетиторы по физике"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/physics_tutor_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетитор по физике 1" />
+        <Button
+            android:id="@+id/physics_tutor_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетитор по физике 2" />
+        <Button
+            android:id="@+id/physics_tutor_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетитор по физике 3"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -18,58 +18,49 @@
         android:visibility="visible"/>
         <Button
             android:id="@+id/math_btn"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="математика" />
-
         <Button
             android:id="@+id/physics_btn"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="физика" />
-
         <Button
             android:id="@+id/russian_lg_btn"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="русский язык" />
-
         <Button
             android:id="@+id/english_lg_btn"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="английский язык" />
-
         <Button
             android:id="@+id/belarussian_lg_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="белорусский язык" />
-
         <Button
             android:id="@+id/chemistry_btn"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="химия" />
-
         <Button
             android:id="@+id/geography_btn"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="география" />
-
         <Button
             android:id="@+id/biology_btn"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="биология" />
-
         <Button
             android:id="@+id/history_btn"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="история" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -88,19 +79,17 @@
             android:id="@+id/math_tutor_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Репетитор по метематике 1" />
+            android:text="Иванов Иван Иванович 1" />
         <Button
             android:id="@+id/math_tutor_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Репетитор по метематике 2" />
+            android:text="Петров Петр Петрович 1" />
         <Button
             android:id="@+id/math_tutor_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Репетитор по метематике 3"
-            android:visibility="visible"/>
-
+            android:text="Сергеев Сергей Сергеевич 1" />
     </LinearLayout>
 
     <LinearLayout
@@ -119,18 +108,222 @@
             android:id="@+id/physics_tutor_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Репетитор по физике 1" />
+            android:text="Иванов Иван Иванович 2" />
         <Button
             android:id="@+id/physics_tutor_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Репетитор по физике 2" />
+            android:text="Петров Петр Петрович 2" />
         <Button
             android:id="@+id/physics_tutor_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Репетитор по физике 3"
-            android:visibility="visible"/>
+            android:text="Сергеев Сергей Сергеевич 2" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/russian_tutors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/russianTutorsList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетиторы по русскому языку"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/russian_tutor_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Иванов Иван Иванович 3" />
+        <Button
+            android:id="@+id/russian_tutor_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Петров Петр Петрович 3" />
+        <Button
+            android:id="@+id/russian_tutor_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сергеев Сергей Сергеевич 3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/english_tutors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/englishTutorsList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетиторы по английскому языку"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/english_tutor_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Иванов Иван Иванович 4" />
+        <Button
+            android:id="@+id/english_tutor_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Петров Петр Петрович 4" />
+        <Button
+            android:id="@+id/english_tutor_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сергеев Сергей Сергеевич 4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/belarussian_tutors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/belarussianTutorsList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетиторы по беларусскому языку"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/belarussian_tutor_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Иванов Иван Иванович 5" />
+        <Button
+            android:id="@+id/belarussian_tutor_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Петров Петр Петрович 5" />
+        <Button
+            android:id="@+id/belarussian_tutor_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сергеев Сергей Сергеевич 5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chemistry_tutors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/chemistryTutorsList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетиторы по химии"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/chemistry_tutor_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Иванов Иван Иванович 6" />
+        <Button
+            android:id="@+id/chemistry_tutor_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Петров Петр Петрович 6" />
+        <Button
+            android:id="@+id/chemistry_tutor_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сергеев Сергей Сергеевич 6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/geografy_tutors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/geografyTutorsList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетиторы по географии"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/geografy_tutor_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Иванов Иван Иванович 7" />
+        <Button
+            android:id="@+id/geografy_tutor_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Петров Петр Петрович 7" />
+        <Button
+            android:id="@+id/geografy_tutor_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сергеев Сергей Сергеевич 7"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/biology_tutors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/biologyTutorsList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетиторы по биологии"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/biology_tutor_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Иванов Иван Иванович 8" />
+        <Button
+            android:id="@+id/biology_tutor_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Петров Петр Петрович 8" />
+        <Button
+            android:id="@+id/biology_tutor_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сергеев Сергей Сергеевич 8"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/history_tutors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/historyTutorsList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Репетиторы по химии"
+            android:visibility="visible"/>
+        <Button
+            android:id="@+id/history_tutor_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Иванов Иван Иванович 9" />
+        <Button
+            android:id="@+id/history_tutor_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Петров Петр Петрович 9" />
+        <Button
+            android:id="@+id/history_tutor_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сергеев Сергей Сергеевич 9"
+            android:visibility="visible"/>
     </LinearLayout>
 </LinearLayout>

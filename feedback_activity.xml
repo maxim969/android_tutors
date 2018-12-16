@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedback_activity">
+    <LinearLayout
+        android:id="@+id/feedback_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/feedback_tutors_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/feedback_competent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="хорошо ли репетитор разбирается в своем предмете?"
+            />
+        <EditText
+            android:id="@+id/feedback_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="какую оценку вы бы поставили репититору?"
+            />
+        <EditText
+            android:id="@+id/feedback_future"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="вы планируете воспользоваться услугами данного репититора в будущем?"
+            />
+        <EditText
+            android:id="@+id/feedback_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Что бы вы хотели изменить/улучшить в работе репетитора?"
+            />
+        <EditText
+            android:id="@+id/feedback_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="другое"
+            />
+        <Button
+            android:id="@+id/feedback_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="отправить отзыв"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
